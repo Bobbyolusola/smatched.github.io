@@ -33,13 +33,13 @@ function App() {
               {
                   path: AppRoutes.MAIN,
                   element: < Home />,
-                  errorElement: <h1>HOME PAGE NOT FOUND</h1>,
+                  errorElement: <h1>HOME PAGE NOT FOUND</h1>
               },
 
               {
-                path: AppRoutes.GAME,
-                element: < Game />,
-                errorElement: <h1>GAME PAGE NOT FOUND</h1>,
+                    path: AppRoutes.GAME,
+                    element: < Game />,
+                    errorElement: <h1>GAME PAGE NOT FOUND</h1>
               },
         ]
       }
@@ -50,6 +50,6 @@ function App() {
       <RouterProvider router = {router} />
     </div>
   );
-}
+};
 
 export default App;
