@@ -1,9 +1,12 @@
 import React, {useState} from "react";
 import styles from "./Header.module.css";
+import { AiOutlineUp, AiOutlineDown } from "react-icons/ai"
+import {lists} from "../../businessList.js";
+import {Link} from "react-router-dom";
 
 const Header = () => {
 
-    const [isActive, setIsActive] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
 
     return(
         <>
@@ -16,29 +19,82 @@ const Header = () => {
                         </div>
 
                         <div className={styles.topMenu}>
-                            <ul>Product</ul>
-                            <ul>Our Mission</ul>
-                            <ul>Influencer</ul>
+                            <div>Product</div>
+                            <div>Our Mission</div>
+                            <div>Influencer</div>
 
-                            <ul className={styles.dropDown}>
-                                <ul className={styles.dropDownBtn}
-                                onClick = {(e) =>
-                                    setIsActive (!isActive)
-                                }>
-                                    For Business <img className={styles.arrowDown} src='/img/arrow-down-s-line (1).svg' alt='' />
-                                </ul>
-                                {isActive && (
-                                    <ul className={styles.dropDownContent}>
-                                        <li className={styles.dropDownItem}>Game Industry</li>
-                                        <li className={styles.dropDownItem}>Nonprofit Companies</li>
-                                        <li className={styles.dropDownItem}>Newspaper Publishing Industry</li>
-                                        <li className={styles.dropDownItem}>Mobile App Monetization</li>
-                                        <li className={styles.dropDownItem}>Website Monetization</li>
-                                    </ul>
+                            <div className={styles.dropDown}>
+                                <div className={styles.dropDownBtn} onClick={(e) => setIsOpen ((prev) => !prev)}>
+                                    For Business
+                                    {!isOpen ? (
+                                        <AiOutlineDown className={styles.arrowDown} />
+                                    ) : (
+                                        <AiOutlineUp className={styles.arrowDown} />
+                                    )}
+                                </div>
+                                {isOpen && (
+                                    <div className={styles.dropDownContent}>
+                                        <div className={styles.dropDownItem}>Game Industry</div>
+                                        <div className={styles.dropDownItem}>Nonprofit Companies</div>
+                                        <div className={styles.dropDownItem}>Newspaper Publishing</div>
+                                        <div className={styles.dropDownItem}>Mobile App Monetization</div>
+                                        <div className={styles.dropDownItem}>Website Monetization</div>
+                                    </div>
                                 )}
-                            </ul>
+                            </div>
 
-                            <ul>Blog</ul>
+
+                            {/*<ul className={styles.dropDown}>*/}
+                            {/*    <ul className={styles.dropDownBtn} onClick={(e) => setIsOpen ((prev) => !prev)}>*/}
+                            {/*        For Business*/}
+                            {/*        {!isOpen ? (*/}
+                            {/*            <AiOutlineDown className={styles.arrowDown} />*/}
+                            {/*        ) : (*/}
+                            {/*            <AiOutlineUp className="h-8" />*/}
+                            {/*        )}*/}
+                            {/*    {isActive && (*/}
+                            {/*        <ul className={styles.dropDownContent}>*/}
+                            {/*            <li className={styles.dropDownItem}>Game Industry</li>*/}
+                            {/*            <li className={styles.dropDownItem}>Nonprofit Companies</li>*/}
+                            {/*            <li className={styles.dropDownItem}>Newspaper Publishing</li>*/}
+                            {/*            <li className={styles.dropDownItem}>Mobile App Monetization</li>*/}
+                            {/*            <li className={styles.dropDownItem}>Website Monetization</li>*/}
+                            {/*        </ul>*/}
+                            {/*    )}*/}
+                            {/*</ul>*/}
+
+                            {/*<ul className={styles.dropDown}>*/}
+                            {/*<ul className={styles.dropDownBtn} onClick={(e) => setIsOpen ((prev) => !prev)}>*/}
+                            {/*    For Business*/}
+                            {/*    {!isOpen ? (*/}
+                            {/*        <AiOutlineDown className={styles.arrowDown} />*/}
+                            {/*        ) : (*/}
+                            {/*            <AiOutlineUp className="h-8" />*/}
+                            {/*        )}*/}
+
+                            {/*{isOpen && (*/}
+                            {/*    <ul className={styles.businessLists}>*/}
+                            {/*        {lists.map((item, i) => (*/}
+                            {/*            <ul>*/}
+                            {/*                <li>{item.url ? <Link to={item.url}>{item.title}</Link> : item.title}*/}
+                            {/*                </li>*/}
+                            {/*            </ul>*/}
+                            {/*        ))}*/}
+                            {/*    </ul>*/}
+                            {/*)}*/}
+                            {/*</ul>*/}
+                            {/*{isOpen && (*/}
+                            {/*    <ul className={styles.s}>*/}
+                            {/*        <li className={styles.dropDownItem}>Game Industry</li>*/}
+                            {/*        <li className={styles.dropDownItem}>Nonprofit Companies</li>*/}
+                            {/*        <li className={styles.dropDownItem}>Newspaper Publishing</li>*/}
+                            {/*        <li className={styles.dropDownItem}>Mobile App Monetization</li>*/}
+                            {/*        <li className={styles.dropDownItem}>Website Monetization</li>*/}
+                            {/*    </ul>*/}
+                            {/*)}*/}
+                            {/*</ul>*/}
+
+                            <div>Blog</div>
                         </div>
                     </div>
                     <div className={styles.left}>

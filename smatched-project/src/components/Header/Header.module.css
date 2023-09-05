@@ -62,10 +62,10 @@ img{
 /*    text-decoration: none;*/
 /*}*/
 
-.arrowDown{
-    width: 20px;
-    height: 40px;
-}
+/*.arrowDown{*/
+/*    width: 20px;*/
+/*    height: 40px;*/
+/*}*/
 
 /*.menu ul {*/
 /*    height: 0;*/
@@ -93,40 +93,74 @@ img{
 /*}*/
 
 .dropDown {
-    width: 135px;
-    margin: 100px auto;
-    user-select: none;
     position: relative;
+    background-color: green;
+    /*height: 50px;*/
+    width: 138px;
 }
 
-.dropDownBtn:hover {
-    cursor: default;
+
+.arrowDown{
+    width: 25px;
+    height: 20px;
+    background-color: white;
+    transition: all 0.9s;
+}
+
+.dropDownContent {
+    position: absolute;
+    background-color: #FFF;
+    transition: all 0.9s;
+    width: 200px;
+    font-size: 16px;
+    /*border: 0.5px solid rgb(240, 239, 239);*/
+    /*border-radius: 0 0 8px 8px ;*/
+    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;*/
+
+
+}
+
+.dropDownItem:hover{
+    padding-left: 5px;
+    border: 0.5px solid rgb(240, 239, 239);
+    border-radius: 0 0 8px 8px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
+
 }
 
 .dropDown .dropDownBtn {
     padding: 0;
     background-color: white;
-    display: flex;align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
     transition: all 0.9s;
 }
 
-.dropDown .dropDownContent {
+/*.dropDown .dropDownContent {*/
+/*    position: absolute;*/
+/*    width: 250px;*/
+/*    color: #232423;*/
+/*}*/
+
+/*.dropDown .dropDownContent .dropDownItem {*/
+/*    cursor: pointer;*/
+/*    transition: all 0.9s;*/
+/*    list-style: none;*/
+/*    font-size: 16px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*.dropDown .dropDownContent .dropDownItem:hover {*/
+/*    background-color: #f4f4f4;*/
+/*}*/
+
+
+.businessLists{
     position: absolute;
-    width: 250px;
-    color: #232423;
-}
-
-.dropDown .dropDownContent .dropDownItem {
-    cursor: pointer;
-    transition: all 0.9s;
-    list-style: none;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.dropDown .dropDownContent .dropDownItem:hover {
-    background-color: #f4f4f4;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .left {
@@ -137,7 +171,6 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .btn{
