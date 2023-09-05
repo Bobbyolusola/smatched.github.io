@@ -3,3 +3,9 @@
     width: 100%;
     height: 50vh;
 }
+.secondContainer {
+    width: 1440px;
+    height: 512px;
+    border: 0 solid #120040;
+    background: #120040;
+}

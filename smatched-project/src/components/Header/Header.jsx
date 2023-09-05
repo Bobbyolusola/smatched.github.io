@@ -19,9 +19,9 @@ const Header = () => {
                         </div>
 
                         <div className={styles.topMenu}>
-                            <div>Product</div>
-                            <div>Our Mission</div>
-                            <div>Influencer</div>
+                            <div className={styles.topMenuItem}>Product</div>
+                            <div className={styles.topMenuItem}>Our Mission</div>
+                            <div className={styles.topMenuItem}>Influencer</div>
 
                             <div className={styles.dropDown}>
                                 <div className={styles.dropDownBtn} onClick={(e) => setIsOpen ((prev) => !prev)}>

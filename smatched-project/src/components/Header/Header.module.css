@@ -94,34 +94,30 @@ img{
 
 .dropDown {
     position: relative;
-    background-color: green;
     /*height: 50px;*/
-    width: 138px;
 }
+
 
 
 .arrowDown{
-    width: 25px;
-    height: 20px;
+    padding-left: 5px;
+    width: 18px;
+    height: 50px;
     background-color: white;
     transition: all 0.9s;
+
 }
 
 .dropDownContent {
+    padding: 2px;
     position: absolute;
     background-color: #FFF;
     transition: all 0.9s;
     width: 200px;
     font-size: 16px;
-    /*border: 0.5px solid rgb(240, 239, 239);*/
-    /*border-radius: 0 0 8px 8px ;*/
-    /*box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;*/
-
-
 }
 
 .dropDownItem:hover{
-    padding-left: 5px;
     border: 0.5px solid rgb(240, 239, 239);
     border-radius: 0 0 8px 8px ;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 2px;
@@ -130,7 +126,6 @@ img{
 
 .dropDown .dropDownBtn {
     padding: 0;
-    background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
