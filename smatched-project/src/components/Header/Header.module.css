@@ -48,19 +48,19 @@ img{
 
 .dropDown {
     position: relative;
-    width: 130px;
+    width: 132px;
 }
 
 .arrowDown{
     padding-left: 5px;
-    width: 20px;
+    width: 22px;
     height: 10px;
     transition: all 0.9s;
 }
 
 .dropDownBtn{
     position: absolute;
-    width: 290px;
+    width: 260px;
     display: flex;
     align-items: center;
     background-color: #FFF;
@@ -71,6 +71,7 @@ img{
 .dropDownBtn > ul {
     list-style: none;
     padding: 5px;
+    font-size: 16px;
 }
 
 .dropDownBtn > ul :hover{
