@@ -1,11 +1,143 @@
 .mainContainer {
-    color: #000;
     width: 100%;
-    height: 50vh;
+    height: 2300px;
+    padding-top: 20px;
 }
-.secondContainer {
-    width: 1440px;
-    height: 512px;
+
+.containerBox{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.innerBox{
+    height: 500px;
+    width: 92.5%;
+    display: flex;
+}
+
+.rightFirstBox{
+    width: 52.5%;
+    height: 550px;
+    background-color: #FFFAEF;
+    font-size: 50px;
+}
+.leftFirstBox{
+    width: 50%;
+    height: 550px;
+    background-color: #BDBABA;
+    font-size: 50px;
+}
+
+.secondContainerBox{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rightSecondBox {
+    width: 40%;
+    height: 420px;
+    background-color: bisque;
+    font-size: 50px;
+}
+
+.leftSecondBox{
+    width: 45%;
+    height: 420px;
+    background-color: antiquewhite;
+    font-size: 50px;
+}
+
+.thirdContainerBox {
+    padding-top: 100px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightThirdBox {
+    width: 40%;
+    height: 420px;
+    background-color: bisque;
+    font-size: 50px;
+}
+
+.leftThirdBox {
+    width: 45%;
+    height: 420px;
+    background-color: antiquewhite;
+    font-size: 50px;
+}
+
+.FourthContainerBox {
+    padding-top: 100px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topFourthBox {
+    width: 40%;
+    height: 180px;
+    background-color: bisque;
+    font-size: 50px;
+}
+
+.lowerFourthBox {
+    width: 85%;
+    height: 450px;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerFourthBox1 {
+    width: 22%;
+    height: 350px;
+    background-color: antiquewhite;
+}
+
+.lastContainer {
+    width: 100%;
+    height: 500px;
     border: 0 solid #120040;
-    background: #120040;
+    background-color: #120040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lastContainerBox {
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightLastContainer{
+    width: 50%;
+    height: 300px;
+    background-color: antiquewhite;
+}
+.leftLastContainer{
+    width: 45%;
+    height: inherit;
+    background-color: bisque;
+}
+
+hr {
+    width: 100%;
+    background-color: #513A8D;
+    height: 1px;
+    border: 0;
 }
