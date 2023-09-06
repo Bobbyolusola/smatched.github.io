@@ -1,7 +1,8 @@
 .mainContainer {
-    width: 100%;
+    width: 80%;
     height: 2300px;
-    padding-top: 20px;
+    padding-top: 120px;
+    margin-left: 10%;
 }
 
 .containerBox{

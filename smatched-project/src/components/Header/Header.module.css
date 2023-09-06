@@ -1,9 +1,14 @@
 .mainBox {
-    height: 110px;
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    position: fixed;
+    top: 0;
+    background-color: #FFF;
+    padding-bottom: 10px;
+    
 }
 
 .headerBox {
@@ -12,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .right{
