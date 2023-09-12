@@ -31,13 +31,18 @@ const Game = () => {
                     </div>
                 </div>
 
-                <div className={styles.FourthContainerBox}>
+                <div className={styles.fourthContainerBox}>
                     <div className={styles.innerFourthContainerBox}>
                         <div className={styles.topFourthBox}> How it works </div>
                         <div className={styles.lowerFourthBox}></div>
                     </div>
                 </div>
 
+                <div className={styles.fifthContainerBox}>
+                    <div className={styles.innerfifthContainerBox}>
+                        <img src="/img/block_6.png" alt=""/>
+                    </div>
+                </div>
             </div>
         </>
     )

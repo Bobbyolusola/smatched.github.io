@@ -8,6 +8,7 @@ import Footer from "./components/Footer/Footer";
 import {AppRoutes} from "./common/routes/AppRoutes";
 import Home from "./pages/Home/Home";
 import Game from "./pages/Game/Game";
+import NewsPaper from "./pages/NewsPaper/NewsPaper";
 
 function App() {
 
@@ -40,6 +41,11 @@ function App() {
                     path: AppRoutes.GAME,
                     element: < Game />,
                     errorElement: <h1>GAME PAGE NOT FOUND</h1>
+              },
+              {
+                  path: AppRoutes.NEWSPAPER,
+                  element: < NewsPaper />,
+                  errorElement: <h1>GAME PAGE NOT FOUND</h1>
               },
         ]
       }

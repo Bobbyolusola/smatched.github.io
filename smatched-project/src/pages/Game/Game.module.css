@@ -1,11 +1,14 @@
 .mainContainer {
     width: 100%;
-    height: 2400px;
-    padding-top: 20px;
+    height: 2900px;
+    padding-top: 110px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .containerBox{
-    width: 100%;
+    width: 80%;
     height: 650px;
     display: flex;
     justify-content: center;
@@ -36,18 +39,17 @@
     display: flex;
     align-content: center;
     justify-content: center;
-
 }
 
 .rightSecondBox {
-    width: 40%;
+    width: 33%;
     height: 420px;
     background-color: bisque;
     font-size: 50px;
 }
 
 .leftSecondBox{
-    width: 45%;
+    width: 35%;
     height: 420px;
     background-color: antiquewhite;
     font-size: 50px;
@@ -61,24 +63,25 @@
     align-items: center;
     justify-content: center;
 
+
 }
 
 .rightThirdBox {
-    width: 40%;
+    width: 33%;
     height: 370px;
     background-color: grey;
     font-size: 50px;
 }
 
 .leftThirdBox {
-    width: 45%;
+    width: 35%;
     height: 370px;
     background-color: antiquewhite;
     font-size: 50px;
 }
 
-.FourthContainerBox {
-    padding-top: 100px;
+.fourthContainerBox {
+    padding-top: 70px;
     width: 100%;
     height: 800px;
     display: flex;
@@ -89,7 +92,7 @@
 }
 
 .innerFourthContainerBox {
-    width: 85%;
+    width: 68%;
     height:620px;
     display: flex;
     flex-direction: column;
@@ -114,9 +117,23 @@
     background-color: antiquewhite;
 }
 
-.lastContainer {
+
+.fifthContainerBox {
     width: 100%;
-    height: 349px;
-    border: 0 solid #120040;
-    background: #120040;
+    height: 550px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.innerfifthContainerBox {
+    width: 100%;
+    height: 523px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.innerfifthContainerBox > img {
+    width: 100%;
+    height: inherit;
 }

@@ -1,0 +1,167 @@
+.mainContainer {
+    padding-top: 150px;
+    width: 100%;
+    height: 2900px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerBox{
+    width: 80%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+}
+
+.innerBox{
+    height: 500px;
+    width: 85%;
+    display: flex;
+}
+
+.rightFirstBox{
+    width: 62.5%;
+    height: 550px;
+    background-color: #FFFAEF;
+    font-size: 50px;
+}
+.leftFirstBox{
+    width: 40%;
+    height: 550px;
+    background-color: #BDBABA;
+    font-size: 50px;
+}
+
+.secondContainerBox{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightSecondBox {
+    width: 30%;
+    height: 50px;
+    background-color: bisque;
+    font-size: 30px;
+}
+
+.leftSecondBox{
+    width: 68%;
+    height: 915px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.empowerRevenue{
+    width: 100%;
+    height: 422px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.empower {
+    width: 45.5%;
+    height: 420px;
+    background: #FFFAEF;
+    box-shadow: 0px 7px 20px 0px #D9D9E9;
+    border-radius: 10px;
+
+}
+
+.revenue {
+    width: 45.5%;
+    height: 420px;
+    background: #FFFAEF;
+    box-shadow: 0px 7px 20px 0px #D9D9E9;
+    border-radius: 10px;
+}
+
+.unlockSubscription {
+    width: 100%;
+    height: 422px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.unlock {
+    width: 45.5%;
+    height: 420px;
+    background: #FFFAEF;
+    box-shadow: 0px 7px 20px 0px #D9D9E9;
+    border-radius: 10px;
+}
+
+.subscription {
+    width: 45.5%;
+    height: 420px;
+    background: #FFFAEF;
+    box-shadow: 0px 7px 20px 0px #D9D9E9;
+    border-radius: 10px;
+}
+
+
+.thirdContainerBox {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rightThirdBox {
+    width: 50%;
+    height: 400px;
+    background-color: #6A35F5;
+    font-size: 50px;
+}
+
+.rightThirdBox > img {
+    width: 100%;
+    height: 400px;
+}
+
+.leftThirdBox {
+    width: 50%;
+    height: 400px;
+    background-color: #6A35F5;
+    font-size: 50px;
+}
+
+.fourthContainerBox {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.innerFourthContainerBox {
+    width: 68%;
+    height:400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFAEF;
+    box-shadow: 0px 7px 20px 0px #D9D9E9;
+    border-radius: 10px;
+}
+
+.topFourthBox {
+    width: 40%;
+    height: 400px;
+    font-size: 50px;
+}
+
+.lowerFourthBox {
+    width: 65%;
+    height: 400px;
+    font-size: 50px;
+}
+
