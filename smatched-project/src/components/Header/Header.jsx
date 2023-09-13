@@ -24,7 +24,7 @@ const Header = () => {
                     <div className={styles.right}>
 
                         <div className={styles.logo}>
-                            <img src="/img/Horizontal container.png" alt=''/>
+                            <img src="/img/Horizontal_container.png" alt=''/>
                         </div>
 
                         <div className={styles.topMenu}>
