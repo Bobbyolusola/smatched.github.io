@@ -1,5 +1,8 @@
+import Monetization from "../../pages/Monetization/Monetization";
+
 export const AppRoutes = {
     MAIN: '/',
     GAME: '/game',
-    NEWSPAPER: '/newspaper'
+    NEWSPAPER: '/newspaper',
+    MONETIZATION: '/monetization'
 }

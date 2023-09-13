@@ -9,6 +9,7 @@ import {AppRoutes} from "./common/routes/AppRoutes";
 import Home from "./pages/Home/Home";
 import Game from "./pages/Game/Game";
 import NewsPaper from "./pages/NewsPaper/NewsPaper";
+import Monetization from "./pages/Monetization/Monetization";
 
 function App() {
 
@@ -40,12 +41,17 @@ function App() {
               {
                     path: AppRoutes.GAME,
                     element: < Game />,
-                    errorElement: <h1>GAME PAGE NOT FOUND</h1>
+                    errorElement: <h1> PAGE NOT FOUND</h1>
               },
               {
                   path: AppRoutes.NEWSPAPER,
                   element: < NewsPaper />,
-                  errorElement: <h1>GAME PAGE NOT FOUND</h1>
+                  errorElement: <h1> PAGE NOT FOUND</h1>
+              },
+              {
+                  path: AppRoutes.MONETIZATION,
+                  element: < Monetization />,
+                  errorElement: <h1> PAGE NOT FOUND</h1>
               },
         ]
       }
