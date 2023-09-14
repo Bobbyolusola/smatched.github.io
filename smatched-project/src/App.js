@@ -9,7 +9,8 @@ import {AppRoutes} from "./common/routes/AppRoutes";
 import Home from "./pages/Home/Home";
 import Game from "./pages/Game/Game";
 import NewsPaper from "./pages/NewsPaper/NewsPaper";
-import Monetization from "./pages/Monetization/Monetization";
+import WebMonetization from "./pages/WebMonetization/WebMonetization";
+import MobileMonetization from "./pages/MobileMonetization/MobileMonetization";
 
 function App() {
 
@@ -49,8 +50,13 @@ function App() {
                   errorElement: <h1> PAGE NOT FOUND</h1>
               },
               {
-                  path: AppRoutes.MONETIZATION,
-                  element: < Monetization />,
+                  path: AppRoutes.WEB_MONETIZATION,
+                  element: < WebMonetization />,
+                  errorElement: <h1> PAGE NOT FOUND</h1>
+              },
+              {
+                  path: AppRoutes.MOBILE_MONETIZATION,
+                  element: < MobileMonetization />,
                   errorElement: <h1> PAGE NOT FOUND</h1>
               },
         ]

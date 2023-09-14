@@ -4,7 +4,7 @@ export const lists =
 [
   {
     id: 1,
-    title: "Monetization Industry",
+    title: "Game Industry",
     url: AppRoutes.GAME,
   },
   {
