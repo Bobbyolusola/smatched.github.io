@@ -1,0 +1,114 @@
+.mainContainer {
+    width: 100%;
+    height: 1100px;
+    padding-top: 120px;
+}
+
+.innerContainer {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    height: 50px;
+    width: 68%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.firstContainerBox {
+    width: 68%;
+    height:550px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.firstContainerBox1 {
+    width: 31%;
+    height: 450px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 7px 20px 0px #D9D9E9;
+}
+
+.secondContainerBox {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerSecondContainer {
+    height: 120px;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.arrowRight,
+.secondContainerBox1,
+.secondContainerBox2,
+.arrowLeft {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    border: 1px solid rgba(17, 17, 17, 0.10);
+    background-color: #FFF;
+    font-size: 14px;
+}
+
+.secondContainerBox1 {
+    background-color: #6A35F5;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 150%;
+}
+
+.arrowRight > img {
+    width: 17px;
+    height: 17px;
+}
+
+.arrowLeft > img {
+    width: 17px;
+    height: 17px;
+}
+
+
+.thirdContainerBox {
+    width: 100%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightThirdBox {
+    width: 48%;
+    height: 150px;
+    font-size: 50px;
+    background-color: antiquewhite;
+}
+
+.leftThirdBox {
+    width: 20%;
+    height: 150px;
+    font-size: 50px;
+}
+
+.leftThirdBox > img{
+    width: 100%;
+    height: 150px;
+}
+

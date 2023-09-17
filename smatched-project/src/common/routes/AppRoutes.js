@@ -7,5 +7,7 @@ export const AppRoutes = {
     WEB_MONETIZATION: '/web_monetization',
     MOBILE_MONETIZATION: '/mobile_monetization',
     REVENUE_STREAMS: '/Revenue_streams',
-    BLOG: '/blog'
+    BLOG: '/blog',
+    ALL_ARTICLES: '/all_articles'
+
 }

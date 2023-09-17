@@ -13,6 +13,7 @@ import WebMonetization from "./pages/WebMonetization/WebMonetization";
 import MobileMonetization from "./pages/MobileMonetization/MobileMonetization";
 import RevenueStreams from "./pages/RevenueStreams/RevenueStreams";
 import Blog from "./pages/Blog/Blog";
+import AllArticles from "./pages/AllArticles/AllArticles";
 
 function App() {
 
@@ -70,6 +71,11 @@ function App() {
                   path: AppRoutes.BLOG,
                   element: < Blog />,
                   errorElement: <h1> PAGE NOT FOUND</h1>
+              },
+              {
+                  path: AppRoutes.ALL_ARTICLES,
+                  element: < AllArticles />
+                  
               },
         ]
       }
