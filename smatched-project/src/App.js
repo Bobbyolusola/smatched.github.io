@@ -11,6 +11,8 @@ import Game from "./pages/Game/Game";
 import NewsPaper from "./pages/NewsPaper/NewsPaper";
 import WebMonetization from "./pages/WebMonetization/WebMonetization";
 import MobileMonetization from "./pages/MobileMonetization/MobileMonetization";
+import RevenueStreams from "./pages/RevenueStreams/RevenueStreams";
+import Blog from "./pages/Blog/Blog";
 
 function App() {
 
@@ -57,6 +59,16 @@ function App() {
               {
                   path: AppRoutes.MOBILE_MONETIZATION,
                   element: < MobileMonetization />,
+                  errorElement: <h1> PAGE NOT FOUND</h1>
+              },
+              {
+                  path: AppRoutes.REVENUE_STREAMS,
+                  element: < RevenueStreams />,
+                  errorElement: <h1> PAGE NOT FOUND</h1>
+              },
+              {
+                  path: AppRoutes.BLOG,
+                  element: < Blog />,
                   errorElement: <h1> PAGE NOT FOUND</h1>
               },
         ]

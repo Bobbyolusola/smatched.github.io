@@ -5,5 +5,7 @@ export const AppRoutes = {
     GAME: '/game',
     NEWSPAPER: '/newspaper',
     WEB_MONETIZATION: '/web_monetization',
-    MOBILE_MONETIZATION: '/mobile_monetization'
+    MOBILE_MONETIZATION: '/mobile_monetization',
+    REVENUE_STREAMS: '/Revenue_streams',
+    BLOG: '/blog'
 }
